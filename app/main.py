@@ -15,12 +15,13 @@ def main():
 
     #Solicitando dados para o usuario 
     def cadastrar_usuario():
-        print("\nAdicionando usuário.")
-        nome = input("Digite seu nome: ")
-        email = input("Digite seu e-mail: ")
-        senha = input("Digite sua senha: ")
+            print("\nAdicionando usuário.")
+            nome = input("Digite seu nome: ")
+            email = input("Digite seu e-mail: ")         
+            senha = input("Digite sua senha: ")
+    
 
-        service.criar_usuario(nome=nome, email=email, senha=senha)
+            service.criar_usuario(nome=nome, email=email, senha=senha)
 
 
     def consultar_usuario():
